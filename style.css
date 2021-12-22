@@ -1,0 +1,46 @@
+body{
+
+    background-image:radial-gradient(rgb(217, 217, 255) 0%, rgb(184, 184, 255) 100%);
+
+}
+
+.header_div h2{
+
+    font-family: 'Pacifico', cursive;    
+    font-size: 50px;
+    color: rgb(23, 146, 105);
+
+}
+
+.header_div p{
+
+    font-family: serif;
+    font-size: 30px;
+
+}
+
+.start_button{
+
+    font-size: 20px;
+    font-family: cursive;
+    transition: transform 0.5s, box-shadow 0.5s;
+
+}
+
+.start_button:hover{
+
+    transform: scale(2.0);
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+.copy_right_footer{
+
+    bottom: 0;
+    text-shadow: 5px 5px 5px grey;
+    font-family:cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+
+}
